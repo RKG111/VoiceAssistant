@@ -7,10 +7,10 @@ from vosk import Model, KaldiRecognizer
 import pyaudio
 import numpy as np
 
-model_path = r"<absolute path to your model>"
+model_path = r"D:\Python\jarvis\vosk-model-small-en-us-0.15"
 
 model = Model(model_path)
-recognizer = KaldiRecognizer(model, 16000)
+recognizer = KaldiRecognizer(model, 44100)
 
 engine = pyttsx3.init()
 
