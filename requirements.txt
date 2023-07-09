@@ -37,7 +37,6 @@ requests==2.31.0
 six==1.16.0
 sounddevice==0.4.6
 soupsieve==2.4.1
-SpeechRecognition==3.10.0
 srt==3.5.3
 tqdm==4.65.0
 urllib3==2.0.3
