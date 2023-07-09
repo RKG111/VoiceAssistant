@@ -1,6 +1,6 @@
 from VirtualAssistant import assistant
-
-my_assistant = assistant('nova')
+from actionList import novaActions
+my_assistant = assistant('nova', novaActions)
 
 my_assistant.Start()
 
